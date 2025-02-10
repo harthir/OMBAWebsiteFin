@@ -1,17 +1,4 @@
 import { useState } from 'react'
-import Panel from "./assets/Img/2024 Panel Picture.jpeg"
-import Ana from "./assets/Img/Ana.png"
-import Anika from "./assets/img/Anika G.jpg"
-import AnikaD from "./assets/Img/AnikaDeshmukh.png"
-import Caelin from "./assets/Img/CaelinStromberg.jpg"
-import Denis from "./assets/Img/DenisKalinin.jpg"
-import DD1 from "./assets/Img/DinnerDialogues1.png"
-import DD2 from "./assets/Img/DinnerDialogues2.jpeg"
-import Grace from "./assets/Img/GraceGilbert.jpg"
-import Harini from "./assets/Img/HariniThirukonda.jpg"
-import VMHIMG from "./assets/Img/VMHIMG.jpeg"
-
-
 
 import './App.css'
 
@@ -19,7 +6,7 @@ function Home(){
   return <>
 
     <div className = "home">
-      <img src = {VMHIMG} id = "home-image" alt = "OMBA Image"></img>
+      <img src = "Img/VMHIMG.jpeg" id = "home-image" alt = "OMBA Image"></img>
       <h1 id = "home-text">OMBA Society</h1>
       <p id = "home-desc"> OMBA (Operations Management and Business Analytics) is a club that aims to bring students more knowledge about this major while also holding career-building events, professional networking opportunities, and even just fun ways to chat with current or previous OMBA majors.</p>
     </div>
@@ -43,88 +30,88 @@ function About(){
       <br></br>
       <div className = "boardPics">
         <div>
-            <img src={Ana} id = "board-images" alt="President"></img>
+            <img src="Img/Ana.png" id = "board-images" alt="President"></img>
             <p><b>President</b></p>
             <p id = "name"> Ana Smith </p>
         </div>
         <div>
-            <img src={AnikaD} alt="President" id = "board-images" ></img>
+            <img src="Img/AnikaDeshmukh.png" alt="President" id = "board-images" ></img>
             <p><b>President</b></p>
             <p id = "name"> Anika Deshmukh </p>
         </div>
         <div>
-            <img src={Harini} alt="VP of Technology"id = "board-images"></img>
+            <img src="Img/HariniThirukonda.jpg" alt="VP of Technology"id = "board-images"></img>
             <p ><b>VP of Technology</b> </p>
             <p id = "name"> Harini Thirukonda </p>
         </div>
         <div>
-            <img src="James.JPG" alt="VP of Involvement" id = "board-images"></img>
+            <img src="Img/James.JPG" alt="VP of Involvement" id = "board-images"></img>
             <p><b>VP of Involvement</b></p>
             <p id = "name"> James Wang</p>
         </div>
         <div>
-            <img src="Mae.PNG" alt="VP of Involvement" id = "board-images"></img>
+            <img src="Img/Mae.PNG" alt="VP of Involvement" id = "board-images"></img>
             <p><b>VP of Involvement</b></p>
             <p id = "name"> Mae Crews </p>
         </div>
         <div>
-            <img src="NoveenAwan.jpg" alt="VP of Marketing" id = "board-images"></img>
+            <img src="Img/NoveenAwan.jpg" alt="VP of Marketing" id = "board-images"></img>
             <p ><b>VP of Marketing</b></p>
             <p id = "name"> Noveen Awan </p>
         </div>
         <div>
-            <img src="CaelinStromberg.jpg" alt="VP of Marketing" id = "board-images"></img>
+            <img src="Img/CaelinStromberg.jpg" alt="VP of Marketing" id = "board-images"></img>
             <p><b>VP of Marketing</b> </p>
             <p id = "name"> Caelin Stromberg </p>
         </div>
        <div>
-            <img src="ViennaNguyen.jpg" alt="VP of Administration" id = "board-images"></img>
+            <img src="Img/ViennaNguyen.jpg" alt="VP of Administration" id = "board-images"></img>
             <p ><b>VP of Administration</b></p>
             <p id = "name"> Vienna Nguyen </p>
         </div>
         <div>
-            <img src="Jordan.JPG" alt="VP of Finance" id = "board-images"></img>
+            <img src="Img/Jordan.JPG" alt="VP of Finance" id = "board-images"></img>
             <p ><b>VP of Finance</b></p>
             <p id = "name"> Jordan Zhang </p>
         </div>
         <div>
-            <img src="JamieJung.jpg" alt="VP of Events" id = "board-images"></img>
+            <img src="Img/JamieJung.jpg" alt="VP of Events" id = "board-images"></img>
             <p ><b>VP of Events</b></p>
             <p id = "name"> Jamie Jung </p>
         </div>
         <div>
-            <img src="GraceGilbert.jpg" alt="VP of Events" id = "board-images"></img>
+            <img src="Img/GraceGilbert.jpg" alt="VP of Events" id = "board-images"></img>
             <p ><b>VP of Events</b></p>
             <p id = "name"> Grace Gilbert </p>
         </div>
 
         <div>
-            <img src="DenisKalinin.jpg" alt="VP of Professional Affairs" id = "board-images"></img>
+            <img src="Img/DenisKalinin.jpg" alt="VP of Professional Affairs" id = "board-images"></img>
             <p ><b>VP of Professional Affairs</b></p>
             <p id = "name"> Denis Kalinin </p>
         </div>
 
         <div>
-            <img src="HunterPearlstein.jpg" alt="VP of Professional Affairs" id = "board-images"></img>
+            <img src="Img/HunterPearlstein.jpg" alt="VP of Professional Affairs" id = "board-images"></img>
             <p ><b>VP of Professional Affairs</b></p>
             <p id = "name"> Hunter Pearlstein </p>
         </div>
 
         <div>
-            <img src="NaaseraHusain.jpg" alt="VP of Recruitment" id = "board-images"></img>
+            <img src="Img/NaaseraHusain.jpg" alt="VP of Recruitment" id = "board-images"></img>
             <p ><b>VP of Recruitment</b></p>
             <p id = "name"> Naasera Husain</p>
         </div>
 
 
         <div>
-            <img src="Anika G.jpg" alt="VP of Membership" id = "board-images"></img>
+            <img src="Img/Anika G.jpg" alt="VP of Membership" id = "board-images"></img>
             <p ><b>VP of Membership</b></p>
             <p id = "name"> Anika Gupta </p>
         </div>
 
         <div>
-            <img src="Sarah.PNG" alt="VP of Membership" id = "board-images"></img>
+            <img src="Img/Sarah.PNG" alt="VP of Membership" id = "board-images"></img>
             <p ><b>VP of Membership</b></p>
             <p id = "name"> Sara Shibu </p>
         </div>
@@ -177,7 +164,7 @@ function Events(){
   </>
 }
 
-const recapArray = [{pics:[DD1, DD2],description:"Dinner Dialouge"}, {pics:["2024 Panel Picture.jpeg", "Panel.jpeg"], description: "Fall 2024 Panel"}]
+const recapArray = [{pics:["Img/DinnerDialogues1.png", "Img/DinnerDialogues2.jpeg"],description:"Dinner Dialouge"}, {pics:["Img/2024PanelPicture.jpeg", "Img/Panel.jpeg"], description: "Fall 2024 Panel"}]
 
 function Recap(){
 
@@ -188,9 +175,8 @@ function Recap(){
     
    <h1 id = "header">Event Recaps!</h1>
     <div className="slideshow-container">
-    
         <div className = "slides">
-        {recapArray[recapIndex].pics.map((x)=> <img src = {x} alt = "Pic unavaiable" id = "slides-pic"></img>
+        {recapArray[recapIndex].pics.map((x)=> <img src = {x} alt = "Pic unavailable" id = "slides-pic"></img>
            )}
         </div>
         <h2 id = "header">{recapArray[recapIndex].description}</h2>
@@ -263,5 +249,3 @@ export default function App() {
     </>
   )
 }
-
-
