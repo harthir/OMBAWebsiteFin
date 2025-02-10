@@ -137,15 +137,19 @@ function Events(){
             
 
             <li>
-                <a href="https://example.com" target = "_blank" className = "event-button">
-                    {/*<div className="event-date">
-                        <span className="month">NOV</span>
-                        <span className="day">20</span>
-                    </div>*/}
+                <a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
+                    <div className="event-date">
+                        <span className="month">FEB</span>
+                        <span className="day">13</span>
+                    </div>
                     <div className="event-info">
+                        <h3>Valenties Day Fundraiser!</h3>
+                        <p>Come check us out at VMH and treat yourself to some sweet valentines day themed cake pops! </p>
+                    </div>
+                    {/*<div className="event-info">
                         <h3>No events coming up!</h3>
                         <p>Check back later!</p>
-                    </div>
+                    </div>**/}
                 </a>
             </li>
         </ul>
