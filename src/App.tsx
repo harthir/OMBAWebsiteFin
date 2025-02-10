@@ -201,7 +201,7 @@ function Contact(){
   <br></br>
   <div className = "body">
   <div className="linktree">
-        <img src="OMBAS Logo.jpg" alt="OMBA Society Logo"></img>
+        <img src="Img/OMBAS Logo.jpg" alt="OMBA Society Logo"></img>
         <h1>@ombasocietyumd</h1>
         <a href="https://ombasociety.slack.com/join/shared_invite/zt-2yenhtre8-fEB5maoPfjnaW_iPeimoWw#/shared-invite/email" className="button" target="_blank">Slack</a>
         <a href="https://www.instagram.com/ombasocietyumd/" className="button" target="_blank">Instagram</a>
