@@ -1,4 +1,17 @@
 import { useState } from 'react'
+import Panel from "./assets/Img/2024 Panel Picture.jpeg"
+import Ana from "./assets/Img/Ana.png"
+import Anika from "./assets/img/Anika G.jpg"
+import AnikaD from "./assets/Img/AnikaDeshmukh.png"
+import Caelin from "./assets/Img/CaelinStromberg.jpg"
+import Denis from "./assets/Img/DenisKalinin.jpg"
+import DD1 from "./assets/Img/DinnerDialogues1.png"
+import DD2 from "./assets/Img/DinnerDialogues2.jpeg"
+import Grace from "./assets/Img/GraceGilbert.jpg"
+import Harini from "./assets/Img/HariniThirukonda.jpg"
+import VMHIMG from "./assets/Img/VMHIMG.jpeg"
+
+
 
 import './App.css'
 
@@ -6,7 +19,7 @@ function Home(){
   return <>
 
     <div className = "home">
-      <img src = "VMHIMG.jpeg" id = "home-image" alt = "OMBA Image"></img>
+      <img src = {VMHIMG} id = "home-image" alt = "OMBA Image"></img>
       <h1 id = "home-text">OMBA Society</h1>
       <p id = "home-desc"> OMBA (Operations Management and Business Analytics) is a club that aims to bring students more knowledge about this major while also holding career-building events, professional networking opportunities, and even just fun ways to chat with current or previous OMBA majors.</p>
     </div>
@@ -30,17 +43,17 @@ function About(){
       <br></br>
       <div className = "boardPics">
         <div>
-            <img src="Ana.JPG" id = "board-images" alt="President"></img>
+            <img src={Ana} id = "board-images" alt="President"></img>
             <p><b>President</b></p>
             <p id = "name"> Ana Smith </p>
         </div>
         <div>
-            <img src="AnikaDeshmukh.JPG" alt="President" id = "board-images" ></img>
+            <img src={AnikaD} alt="President" id = "board-images" ></img>
             <p><b>President</b></p>
             <p id = "name"> Anika Deshmukh </p>
         </div>
         <div>
-            <img src="HariniThirukonda.jpg" alt="VP of Technology"id = "board-images"></img>
+            <img src={Harini} alt="VP of Technology"id = "board-images"></img>
             <p ><b>VP of Technology</b> </p>
             <p id = "name"> Harini Thirukonda </p>
         </div>
@@ -164,7 +177,7 @@ function Events(){
   </>
 }
 
-const recapArray = [{pics:["DinnerDialogues1.png", "DinnerDialogues2.jpeg"],description:"Dinner Dialouge"}, {pics:["2024 Panel Picture.jpeg", "Panel.jpeg"], description: "Fall 2024 Panel"}]
+const recapArray = [{pics:[DD1, DD2],description:"Dinner Dialouge"}, {pics:["2024 Panel Picture.jpeg", "Panel.jpeg"], description: "Fall 2024 Panel"}]
 
 function Recap(){
 
@@ -175,6 +188,7 @@ function Recap(){
     
    <h1 id = "header">Event Recaps!</h1>
     <div className="slideshow-container">
+    
         <div className = "slides">
         {recapArray[recapIndex].pics.map((x)=> <img src = {x} alt = "Pic unavaiable" id = "slides-pic"></img>
            )}
