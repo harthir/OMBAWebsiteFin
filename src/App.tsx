@@ -164,7 +164,7 @@ function Events(){
   </>
 }
 
-const recapArray = [{pics:["Img/DinnerDialogues1.png", "Img/DinnerDialogues2.jpeg"],description:"Dinner Dialouge"}, {pics:["Img/2024PanelPicture.jpeg", "Img/Panel.jpeg"], description: "Fall 2024 Panel"}]
+const recapArray = [{pics:["Img/DinnerDialogues1.png", "Img/DinnerDialogues2.jpeg"],description:"Dinner Dialogue"}, {pics:["Img/2024PanelPicture.jpeg", "Img/Panel.jpeg"], description: "Fall 2024 Panel"}]
 
 function Recap(){
 
