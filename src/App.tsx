@@ -144,7 +144,7 @@ function Events(){
                     </div>
                     <div className="event-info">
                         <h3>Valenties Day Fundraiser!</h3>
-                        <p>Come check us out at VMH and treat yourself to some sweet valentines day themed cake pops! </p>
+                        <p>Come check us out at VMH and treat yourself to some sweet valentines day themed chocolate truffles! </p>
                     </div>
                     {/*<div className="event-info">
                         <h3>No events coming up!</h3>
