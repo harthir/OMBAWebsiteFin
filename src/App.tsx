@@ -140,12 +140,29 @@ function Events(){
                 <a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
                     <div className="event-date">
                         <span className="month">FEB</span>
-                        <span className="day">13</span>
+                        <span className="day">24</span>
                     </div>
                     <div className="event-info">
-                        <h3>Valenties Day Fundraiser!</h3>
-                        <p>Come check us out at VMH and treat yourself to some sweet valentines day themed chocolate truffles! </p>
+                        <h3>OMBAS x EY event</h3>
+                        <p>Come check us out on our colloborate event with EY with learning and networking opportunities! </p>
                     </div>
+                    
+                    {/*<div className="event-info">
+                        <h3>No events coming up!</h3>
+                        <p>Check back later!</p>
+                    </div>**/}
+                </a>
+
+                <a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
+                    <div className="event-date">
+                        <span className="month">MAR</span>
+                        <span className="day">4</span>
+                    </div>
+                    <div className="event-info">
+                        <h3>OMBAS x CYC event</h3>
+                        <p>Come check us out on our colloborate event with CYC with learning and networking opportunities! </p>
+                    </div>
+                    
                     {/*<div className="event-info">
                         <h3>No events coming up!</h3>
                         <p>Check back later!</p>
