@@ -137,7 +137,7 @@ function Events(){
             
 
             <li>
-                <a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
+                {/*<a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
                     <div className="event-date">
                         <span className="month">FEB</span>
                         <span className="day">24</span>
@@ -147,10 +147,10 @@ function Events(){
                         <p>Come check us out on our colloborate event with EY with learning and networking opportunities! </p>
                     </div>
                     
-                    {/*<div className="event-info">
+                    <div className="event-info">
                         <h3>No events coming up!</h3>
                         <p>Check back later!</p>
-                    </div>**/}
+                    </div>
                 </a>
 
                 <a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
@@ -163,11 +163,82 @@ function Events(){
                         <p>Come check us out on our colloborate event with CYC with learning and networking opportunities! </p>
                     </div>
                     
-                    {/*<div className="event-info">
+                    <div className="event-info">
                         <h3>No events coming up!</h3>
                         <p>Check back later!</p>
-                    </div>**/}
+                    </div>*
+                </a>*/}
+
+      <a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
+                    <div className="event-date">
+                        <span className="month">APR</span>
+                        <span className="day">2</span>
+                    </div>
+                    <div className="event-info">
+                        <h3>OMBAS x Ascend event</h3>
+                        <p>Come check us out on our colloborate event to learn about Product Management Techniques! </p>
+                    </div>
+
+                    
+                   
                 </a>
+        
+
+                <a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
+                    <div className="event-date">
+                        <span className="month">APR</span>
+                        <span className="day">7</span>
+                    </div>
+                    <div className="event-info">
+                        <h3>Alumni Panel</h3>
+                        <p>Come out to learn from previous OMBA Majors and get professional and personal life advice </p>
+                    </div>
+
+                    
+                   
+                </a>
+
+                {/*<a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
+                    <div className="event-date">
+                        <span className="month">APR</span>
+                        <span className="day">17</span>
+                    </div>
+                    <div className="event-info">
+                        <h3>IBSO Collab</h3>
+                        <p>Come out to learn from previous OMBA Majors and get professional and personal life advice </p>
+                    </div>
+
+                    
+                   
+                </a>*/}
+
+                {/*<a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
+                    <div className="event-date">
+                        <span className="month">APR</span>
+                        <span className="day">21</span>
+                    </div>
+                    <div className="event-info">
+                        <h3>Excel Workshop</h3>
+                        <p>Come out to learn from previous OMBA Majors and get professional and personal life advice </p>
+                    </div>
+
+                    
+                   
+                </a>*/}
+
+                {/*}a href="https://www.instagram.com/ombasocietyumd/" target = "_blank" className = "event-button">
+                    <div className="event-date">
+                        <span className="month">APR</span>
+                        <span className="day">28</span>
+                    </div>
+                    <div className="event-info">
+                        <h3>SCMS Collab</h3>
+                        <p>Come out to learn from previous OMBA Majors and get professional and personal life advice </p>
+                    </div>
+
+                    
+                   
+                </a>*/}
             </li>
         </ul>
       <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&src=b21iYXNvY2lldHl1bWQudGVjaG5vbG9neUBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" id = "calendar" ></iframe>
