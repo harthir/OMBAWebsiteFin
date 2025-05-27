@@ -20,6 +20,8 @@
   
 }
 
+
+
 .navbar button{
   border-radius: 0%;
 
@@ -222,11 +224,6 @@
 
 }
 
-.slides #slides-pic{
-  height: auto;
-  width: 50%;
-  padding: 20px;
-}
 
 .button-container{
   display: flex;
@@ -334,7 +331,19 @@
   background-color: #dcdcdc;
 }
 
+section.recap {
+  background-color: #eca696;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0;
+}
 
+.btn:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
 
 
   
