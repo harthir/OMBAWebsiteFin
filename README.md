@@ -13,7 +13,7 @@ Before You Start (one-time setup on your computer)
     •	Then start the site:
     •	  npm run dev (Vite projects)
 
-    •	The terminal will tell you a local address like http://localhost:5173 or http://localhost:3000. Open that in your browser to preview changes.
+The terminal will tell you a local address like http://localhost:5173 or http://localhost:3000. Open that in your browser to preview changes.
 
 You only edit App.tsx, App.css, and add image files in public/Img/ for everything in this guide.
 
@@ -30,7 +30,7 @@ B) Add a person (copy-paste one line)
 
 Find the const members = [ ... ]; list and add one more object (add this line with a comma): 
 
-{ img: 'Img/JaneDoe.jpg', title: 'VP of Outreach', name: 'Jane Doe' },
+```{ img: 'Img/JaneDoe.jpg', title: 'VP of Outreach', name: 'Jane Doe' },```
 
 What to change:
 	•	img: the path Img/YourImageName.ext exactly matching the file in public/Img/
@@ -50,17 +50,20 @@ In Events() (inside App.tsx) there’s a blue info box that says:
 
 “No events coming up. Have a great summer!”
 
-	•	To keep that, do nothing.
-	•	To hide that (because you have events), delete or comment out this line: 
+To keep that, do nothing.
+To hide that (because you have events), delete or comment out this line: 
   
   <div className="alert alert-info">No events coming up. Have a great summer!</div>
+
+To Add an event card add this line: 
 
 B) Add an Event Card (copy-paste this)
 	1.	Find the <section className="events"> in App.tsx.
 	2.	Paste the block just above the Google Calendar <iframe>.
 
-  {/* ——— START: Single Event Card ——— */}
 
+```
+{/* ——— START: Single Event Card ——— */}
 <div className="d-flex justify-content-center">
   <a
     href="https://www.instagram.com/ombasocietyumd/"   // CHANGE: link to RSVP, IG, TerpLink, etc.
@@ -68,17 +71,17 @@ B) Add an Event Card (copy-paste this)
     rel="noopener noreferrer"
     className="text-decoration-none"
   >
-    <div className="d-flex align-items-center bg-white shadow-sm rounded p-3 mb-4" style={{ maxWidth: '700px' }}>
-      {/* LEFT: Date box */}
-      <div
-        className="text-center bg-light border rounded p-2 me-3"
-        style={{ width: '80px', color: '#000' }}
-      >
-        <div className="text-uppercase fw-bold small">Oct</div>   {/* CHANGE: Month (3 letters) */}
-        <div className="fs-3 fw-bold">21</div>                    {/* CHANGE: Day (number) */}
-      </div>
+<div className="d-flex align-items-center bg-white shadow-sm rounded p-3 mb-4" style={{ maxWidth: '700px' }}>
+    {/* LEFT: Date box */}
+    <div
+    className="text-center bg-light border rounded p-2 me-3"
+    style={{ width: '80px', color: '#000' }}
+    >
+    <div className="text-uppercase fw-bold small">Oct</div>   {/* CHANGE: Month (3 letters) */}
+    <div className="fs-3 fw-bold">21</div>                    {/* CHANGE: Day (number) */}
+    </div>
 
-      {/* RIGHT: Event text */}
+{/* RIGHT: Event text */}
       <div className="text-start">
         <h5 className="text-dark mb-1">OMBA x Guest Speaker</h5>  {/* CHANGE: Event title */}
         <p className="text-muted mb-1 small">
@@ -90,6 +93,7 @@ B) Add an Event Card (copy-paste this)
   </a>
 </div>
 {/* ——— END: Single Event Card ——— */}
+```
 
 To add multiple events, paste that whole block again underneath and change the details. Keep your most recent/soonest events on top.
 
@@ -110,6 +114,7 @@ B) Add a new recap item (copy-paste)
 
 Add another object to recapArray:
 
+```
 {
   pics: [
     'Img/YourEvent1.jpg', // CHANGE: add at least one image
@@ -117,6 +122,7 @@ Add another object to recapArray:
   ],
   description: 'Spring 2025 Guest Speaker' // CHANGE: short title for the recap
 },
+```
 
 Use the Prev/Next buttons on the Recap page to flip through items. The last item in the list is the one shown when you click “Next →” until it disables.
 
