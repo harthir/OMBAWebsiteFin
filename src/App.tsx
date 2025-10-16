@@ -21,22 +21,21 @@ function Home() {
 
 function About() {
   const members = [
-    { img: 'Img/Ana.png', title: 'President', name: 'Ana Smith' },
     { img: 'Img/AnikaDeshmukh.png', title: 'President', name: 'Anika Deshmukh' },
-    { img: 'Img/HariniThirukonda.jpg', title: 'VP of Technology', name: 'Harini Thirukonda' },
-    { img: 'Img/James.JPG', title: 'VP of Involvement', name: 'James Wang' },
-    { img: 'Img/Mae.PNG', title: 'VP of Involvement', name: 'Mae Crews' },
+    { img: 'Img/MaximLoukinov.JPG', title: 'President', name: 'Maxim Loukinov' },
     { img: 'Img/NoveenAwan.jpg', title: 'VP of Marketing', name: 'Noveen Awan' },
-    { img: 'Img/CaelinStromberg.jpg', title: 'VP of Marketing', name: 'Caelin Stromberg' },
-    { img: 'Img/ViennaNguyen.jpg', title: 'VP of Administration', name: 'Vienna Nguyen' },
-    { img: 'Img/Jordan.JPG', title: 'VP of Finance', name: 'Jordan Zhang' },
-    { img: 'Img/JamieJung.jpg', title: 'VP of Events', name: 'Jamie Jung' },
-    { img: 'Img/GraceGilbert.jpg', title: 'VP of Events', name: 'Grace Gilbert' },
-    { img: 'Img/DenisKalinin.jpg', title: 'VP of Professional Affairs', name: 'Denis Kalinin' },
+    { img: 'Img/NyssaPatel.JPG', title: 'VP of Marketing', name: 'Nyssa Patel' },
+    { img: 'Img/NavyaGunna.JPEG', title: 'VP of Finance', name: 'Navya Gunna' },
+    { img: 'Img/JamieJung.jpg', title: 'VP of Event Planning', name: 'Jamie Jung' },
+    { img: 'Img/DenisKalinin.jpg', title: 'VP of Event Planning', name: 'Denis Kalinin' },
     { img: 'Img/HunterPearlstein.jpg', title: 'VP of Professional Affairs', name: 'Hunter Pearlstein' },
-    { img: 'Img/NaaseraHusain.jpg', title: 'VP of Recruitment', name: 'Naasera Husain' },
-    { img: 'Img/Anika G.jpg', title: 'VP of Membership', name: 'Anika Gupta' },
-    { img: 'Img/Sarah.PNG', title: 'VP of Membership', name: 'Sara Shibu' }
+    { img: 'Img/NaaseraHusain.jpg', title: 'Chair of Fellowship', name: 'Naasera Husain' },
+    { img: 'Img/Mae.PNG', title: 'VP of Administration', name: 'Mae Crews' },
+    { img: 'Img/VisheshKhare.JPG', title: 'VP of Membership', name: 'Vishesh Khare' },
+    { img: 'Img/Azraa.jpeg', title: 'Events Committee', name: 'Azraa Abdoul' },
+    { img: 'Img/NatalieBaynes.JPG', title: 'Events Committee', name: 'Natalie Baynes' },
+    { img: 'Img/ParidhiParekh.PNG', title: 'Director of Fellowship', name: 'Paridhi Parekh' },
+    { img: 'Img/ShareenAhmad.jpg', title: 'Director of Fellowship', name: 'Shareen Ahmad' },
   ];
 
   return (
@@ -63,34 +62,41 @@ function Events() {
     <section className="events">
       <div className="container text-center">
         <h1 className="mb-4 fw-bold">Upcoming Events</h1>
-        <div className="alert alert-info">No events coming up. Have a great summer!</div>
 
 
+          {/* If there are no events comment this out*/}
+        {/* <div className="alert alert-info">No events coming up. Have a great summer!</div>*/}
 
+        {/* ——— START: Single Event Card ——— */}
+        <div className="d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/ombasocietyumd/"   // CHANGE: link to RSVP, IG, TerpLink, etc.
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-decoration-none"
+          >
+            <div className="d-flex align-items-center bg-white shadow-sm rounded p-3 mb-4" style={{ maxWidth: '700px' }}>
+              {/* LEFT: Date box */}
+              <div
+                className="text-center bg-light border rounded p-2 me-3"
+                style={{ width: '80px', color: '#000' }}
+              >
+                <div className="text-uppercase fw-bold small">Oct</div>   {/* CHANGE: Month (3 letters) */}
+                <div className="fs-3 fw-bold">21</div>                    {/* CHANGE: Day (number) */}
+              </div>
 
-
-{/*<div className="d-flex justify-content-center">
-    <a
-      href="https://www.instagram.com/ombasocietyumd/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-decoration-none"
-    >
-      <div className="d-flex align-items-center bg-white shadow-sm rounded p-3 mb-4" style={{ maxWidth: '600px' }}>
-        <div
-          className="text-center bg-light border rounded p-2 me-3"
-          style={{ width: '70px', color: '#000' }}
-        >
-          <div className="text-uppercase fw-bold small">May</div>
-          <div className="fs-3 fw-bold">29</div>
+              {/* RIGHT: Event text */}
+              <div className="text-start">
+                <h5 className="text-dark mb-1">OMBA x Guest Speaker</h5>  {/* CHANGE: Event title */}
+                <p className="text-muted mb-1 small">
+                  AI & Analytics in Business • 6–7pm • VMH 1330             {/* CHANGE: brief details */}
+                </p>
+                <p className="text-primary small mb-0">Tap for details →</p>
+              </div>
+            </div>
+          </a>
         </div>
-        <div className="text-start">
-          <h5 className="text-dark mb-1">OMBA x Guest Speaker</h5>
-          <p className="text-muted mb-0 small">Join us for a talk on AI and Analytics in Business. Snacks provided!</p>
-        </div>
-      </div>
-    </a>
-  </div>*/}
+        {/* ——— END: Single Event Card ——— */}
 
 
 
